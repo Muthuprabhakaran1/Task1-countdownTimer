@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  }
+  
+  body{
+    background-color: #87a076;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .box{
+    background-color: rgb(185, 172, 185);
+    height: 200px;
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .frame{
+    display: flex;
+    gap: 10px;
+  }
+  
+  h3{
+    font-weight: 530;
+    font-size: 20px;
+    color:#130f40;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  .hrs,
+  .min,
+  .sec,
+  .ms,
+  .colon{
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #000000;
+  font-family: 'Digital-7';
+  }
+  .colon{
+  width: 10px;
+  height: 50px;
+  }
+  .buttons{
+    margin-top: 25px;
+  }
+  .buttons button{
+   border: none;
+   padding: 7px 26px;
+   color:rgba(252, 250, 250, 0.966);
+   border-radius: 30px;
+   text-transform: uppercase;
+  
+  }
+  
+  .start{background-color: #000000;}
+  .stop{background-color: #000000;}
+  .reset{background-color:  #000000;}
+  
+  
+  .start-active,
+  .stop-active{
+    pointer-events: none;
+    opacity: 0.5;
+  }
